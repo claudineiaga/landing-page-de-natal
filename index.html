@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="main.css">
+
+    <title>Landing Page de Natal</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span>Feliz</span>
+                <span>Natal</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="list__item">
+                        <a href="#" class="nav__link active-link">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="list__item">
+                        <a href="#" class="nav__link">
+                            Presentes
+                        </a>
+                    </li>
+
+                    <li class="list__item">
+                        <a href="#" class="nav__link">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__buttons">
+                    <div class="nav__notification">
+                        <img src="bell.png" alt="image" class="nav__bell">
+                        <div class="nav__circle">2</div>
+                    </div>
+
+                    <a href="#" class="button button__dark">Compre um Presente</a>
+                </div>
+
+                <!-- Close Button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home">
+            <div class="home__container container">
+                <img src="santa3.png" alt="image" class="home__img">
+
+                <div class="home__data">
+                    <div>
+                        <h1 class="home__title" id="title-data">
+                            Faltam
+                            <div class="home__number" id="number-data">09</div>
+                            <div class="home__text" id="text-data">Dias</div>
+                            para o Natal
+                        </h1>
+
+                        <h1 class="home__title" id="msg-christmas"></h1>
+                    </div>
+
+                    <p class="home__description">
+                        Compartilhe o espírito natalino e da felicidade
+                        com os melhores presentes.
+                    </p>
+
+                    <a href="#" class="button">Presentei seus amados</a>
+                </div>
+
+                <img src="bell.png" alt="image" class="home__bell">
+                <img src="star.png" alt="image" class="home__star">
+
+                <div class="home__blob"></div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== NEVE JS ===============-->
+    <script src="https://app.embed.im/snow.js" defer></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+</html>
